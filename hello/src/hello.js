@@ -16,8 +16,6 @@ var RandomHello = r.createClass({
         var rdm_max = hellos.length;
         var rdm = Math.floor( Math.random() * rdm_max ) + rdm_min;
 
-        console.log(rdm + " " + rdm_max);
-
         return(
             <h1>{ hellos[rdm] }, { this.props.name }!</h1>
         )
@@ -56,7 +54,7 @@ var RandomHello = r.createClass({
 //Render "Hello { name }" in different language
 //hello-language.html
 
-r.render(
-    <RandomHello name="Mark Z." />,
-    document.getElementById("hello-language")
-);
+// r.render(
+//     <RandomHello name="Mark Z." />,
+//     document.getElementById("hello-language")
+// );

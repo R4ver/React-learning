@@ -25,7 +25,7 @@ var Hello = r.createClass({
     render: function() {
         if ( this.props.random === "true" ) {
             return( <RandomHello name={ this.props.name } /> )
-        } else if ( this.props.random === "false" ) {
+        } else {
             return( <HelloName name={ this.props.name } /> )
         }
     }

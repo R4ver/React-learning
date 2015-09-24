@@ -2,12 +2,18 @@
     <head>
         <meta charset="UTF-8">
         <title>Hello React</title>
+        <script src="https://fb.me/react-0.13.3.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
     </head>
     <body>
         <div id="hello"></div>
 
-        <!-- Scripts -->
-        <script src="https://fb.me/react-0.13.3.js"></script>
-        <script src="build/hello.js"></script>
+        <!-- Script -->
+        <script type="text/jsx">
+            React.render(
+                <h1>Hello React!</h1>,
+                document.getElementById("hello")
+            );
+        </script>
     </body>
 </html>

@@ -3,12 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <title>Hello</title>
+        <script src="https://fb.me/react-0.13.3.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
     </head>
     <body>
-        <div id="hello-name"></div>
+        <div id="hello"></div>
         
         <!-- Scripts -->
-        <script src="https://fb.me/react-0.13.3.js"></script>
         <script src="build/hello.js"></script>
+        <script type="text/jsx">
+            React.render(
+                <Hello random="false" name="Mark Z." />,
+                document.getElementById("hello")
+            );
+        </script>
     </body>
 </html>

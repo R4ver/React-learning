@@ -20,7 +20,7 @@ root/
 
 ## Usage
 ```jsx
-//Include /build/hello.js in footer or bottom of page
+//Include /build/hello.js in footer or bottom of page before the script bellow
 React.render(
     <Hello random="true" name="Mark Z." />, //random="true" prints out "Hello" in multiple languages
     document.getElementById("hello")

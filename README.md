@@ -2,7 +2,7 @@
 
 ## Compiling Source Files
 
-Compile SASS using [Koala](http://koala-app.com/).
+Compile SASS using [Koala](http://koala-app.com/) and set the output to be in the build folder - alongside the script.
 
 You'll need to first install the react tools from npm (I assume it's already installed alongside Node).
 

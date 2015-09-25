@@ -17,6 +17,7 @@ $RECYCLE.BIN/
 #Library folder
 react-lib
 hello/build/
+Tweet/build/
 
 # Windows shortcuts
 *.lnk

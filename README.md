@@ -2,6 +2,8 @@
 
 ## Compiling Source Files
 
+Compile SASS using [Koala](http://koala-app.com/).
+
 You'll need to first install the react tools from npm (I assume it's already installed alongside Node).
 
 ### File structure example:
@@ -18,7 +20,7 @@ root/
 4. Type in ```jsx --watch /src /build```
 5. This will keep watching you src folder and compile files when changed and put them into a new folder called "build"
 
-## Usage
+## Usage: Hello
 ```jsx
 //Include /build/hello.js in footer or bottom of page before the script bellow
 React.render(

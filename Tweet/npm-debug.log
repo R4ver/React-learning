@@ -1,0 +1,112 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 warn package.json Tweet_Counter@0.0.1 No description
+5 warn package.json Tweet_Counter@0.0.1 No repository field.
+6 warn package.json Tweet_Counter@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'C:\\Users\\pwnra\\Dropbox\\git\\React-learning\\Tweet',
+8 verbose install   [ 'grunt',
+8 verbose install     'grunt-cli',
+8 verbose install     'grunt-react',
+8 verbose install     'grunt-contrib-sass',
+8 verbose install     'grunt-contrib-watch' ] ]
+9 info preinstall Tweet_Counter@0.0.1
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping grunt@~0.4.5 C:\Users\pwnra\Dropbox\git\React-learning\Tweet
+12 verbose cache add [ 'grunt-cli@~0.4.x', null ]
+13 verbose cache add name=undefined spec="grunt-cli@~0.4.x" args=["grunt-cli@~0.4.x",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'grunt-cli@~0.4.x',
+14 verbose parsed url   path: 'grunt-cli@~0.4.x',
+14 verbose parsed url   href: 'grunt-cli@~0.4.x' }
+15 verbose already installed skipping grunt-react@~0.12.0 C:\Users\pwnra\Dropbox\git\React-learning\Tweet
+16 verbose already installed skipping grunt-contrib-sass@~0.9.0 C:\Users\pwnra\Dropbox\git\React-learning\Tweet
+17 verbose already installed skipping grunt-contrib-watch@~0.4.0 C:\Users\pwnra\Dropbox\git\React-learning\Tweet
+18 verbose cache add name="grunt-cli" spec="~0.4.x" args=["grunt-cli","~0.4.x"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '~0.4.x',
+19 verbose parsed url   path: '~0.4.x',
+19 verbose parsed url   href: '~0.4.x' }
+20 verbose addNamed [ 'grunt-cli', '~0.4.x' ]
+21 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+22 silly lockFile 953d2805-grunt-cli-0-4-x grunt-cli@~0.4.x
+23 verbose lock grunt-cli@~0.4.x C:\Users\pwnra\AppData\Roaming\npm-cache\953d2805-grunt-cli-0-4-x.lock
+24 silly addNameRange { name: 'grunt-cli',
+24 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+24 silly addNameRange   hasData: false }
+25 verbose request where is /grunt-cli
+26 verbose request registry https://registry.npmjs.org/
+27 verbose request id 53606140f4a0013b
+28 verbose url raw /grunt-cli
+29 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+30 verbose url resolved https://registry.npmjs.org/grunt-cli
+31 verbose request where is https://registry.npmjs.org/grunt-cli
+32 info trying registry request attempt 1 at 18:15:28
+33 verbose etag "2CAHK3Q2AC2FWHJAN98LPSCUC"
+34 http GET https://registry.npmjs.org/grunt-cli
+35 http 304 https://registry.npmjs.org/grunt-cli
+36 silly registry.get cb [ 304,
+36 silly registry.get   { date: 'Sun, 27 Sep 2015 16:15:29 GMT',
+36 silly registry.get     via: '1.1 varnish',
+36 silly registry.get     'cache-control': 'max-age=60',
+36 silly registry.get     etag: '"2CAHK3Q2AC2FWHJAN98LPSCUC"',
+36 silly registry.get     age: '55',
+36 silly registry.get     connection: 'keep-alive',
+36 silly registry.get     'x-served-by': 'cache-ams4125-AMS',
+36 silly registry.get     'x-cache': 'HIT',
+36 silly registry.get     'x-cache-hits': '1',
+36 silly registry.get     'x-timer': 'S1443370529.771386,VS0,VE0',
+36 silly registry.get     vary: 'Accept' } ]
+37 verbose etag https://registry.npmjs.org/grunt-cli from cache
+38 silly addNameRange number 2 { name: 'grunt-cli', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+39 silly addNameRange versions [ 'grunt-cli',
+39 silly addNameRange   [ '0.1.0',
+39 silly addNameRange     '0.1.1',
+39 silly addNameRange     '0.1.2',
+39 silly addNameRange     '0.1.3',
+39 silly addNameRange     '0.1.4',
+39 silly addNameRange     '0.1.5',
+39 silly addNameRange     '0.1.6',
+39 silly addNameRange     '0.1.7',
+39 silly addNameRange     '0.1.8',
+39 silly addNameRange     '0.1.9',
+39 silly addNameRange     '0.1.10',
+39 silly addNameRange     '0.1.11',
+39 silly addNameRange     '0.1.12',
+39 silly addNameRange     '0.1.13' ] ]
+40 silly lockFile 953d2805-grunt-cli-0-4-x grunt-cli@~0.4.x
+41 silly lockFile 953d2805-grunt-cli-0-4-x grunt-cli@~0.4.x
+42 error notarget No compatible version found: grunt-cli@'>=0.4.0-0 <0.5.0-0'
+42 error notarget Valid install targets:
+42 error notarget ["0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","0.1.7","0.1.8","0.1.9","0.1.10","0.1.11","0.1.12","0.1.13"]
+42 error notarget
+42 error notarget This is most likely not a problem with npm itself.
+42 error notarget In most cases you or one of your dependencies are requesting
+42 error notarget a package version that doesn't exist.
+43 error System Windows_NT 6.2.9200
+44 error command "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+45 error cwd C:\Users\pwnra\Dropbox\git\React-learning\Tweet
+46 error node -v v0.10.40
+47 error npm -v 1.4.28
+48 error code ETARGET
+49 verbose exit [ 1, true ]

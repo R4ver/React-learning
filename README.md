@@ -1,30 +1,16 @@
 # React Learning
 
-## Compiling Source Files
+## Installation of Projects
+Start by making sure you have Node.js installed and it's in your PATH. If you don't got node installed, then go to: [nodejs.org](https://nodejs.org/en/) and download node. 
 
-Compile SASS using [Koala](http://koala-app.com/) and set the output to be in the build folder - alongside the script.
+After that, install grunt-cli by opening a terminal (Command prompt) and type ```npm install grunt-cli --save-dev```, and then continue.
 
-You'll need to first install the react tools from npm (I assume it's already installed alongside Node).
 
-### File structure example:
-``` 
-root/
-|-- index.html
-|-- src/ //Script source folder
-|   |-- app.js
-```
+To get all the necessary files to build the project and compile it:
 
-1. Open a node command prompt or terminal (I use Git Bash on Windows)
-2. Type in ```npm install -g react-tools```
-3. Still in command prompt or terminal, navigate to your project root folder
-4. Type in ```jsx --watch /src /build```
-5. This will keep watching you src folder and compile files when changed and put them into a new folder called "build"
-
-## Usage: Hello
-```jsx
-//Include /build/hello.js in footer or bottom of page before the script bellow
-React.render(
-    <Hello random="true" name="Mark Z." />, //random="true" prints out "Hello" in multiple languages
-    document.getElementById("hello")
-);
-```
+1. Open a terminal (Command prompt)
+2. Navigate to the project folder
+3. Then type: ```npm install```
+4. Wait for npm to install the packages
+5. Then type: ```grunt``` and the files will be compiled
+6. Opitonal you can type ```grunt watch``` and grunt will watch the files while you make changes.

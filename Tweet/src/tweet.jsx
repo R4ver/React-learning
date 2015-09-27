@@ -18,7 +18,9 @@ var NewTweet = r.createClass({
     },
 
     handleSubmit() {
-        if ( $(".tweet__text").val().length === 0 ) {
+        var input = $(".tweet__text"); 
+
+        if ( input.val().length === 0 ) {
             alert("Please enter a tweet");
             return false;
         }
@@ -26,6 +28,8 @@ var NewTweet = r.createClass({
         alert( "Success!" );
 
         $("#tweets").prepend("<div class='single__tweet'><div class='profile__image'></div><p>" + $(".tweet__text").val() + "</p></div>");
+
+        input.val("");
     },
 
     render() {

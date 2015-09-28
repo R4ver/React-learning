@@ -30,6 +30,9 @@ var NewTweet = r.createClass({
         $("#tweets").prepend("<div class='single__tweet'><div class='profile__image'></div><p>" + $(".tweet__text").val() + "</p></div>");
 
         input.val("");
+        $("#tweet__counter").html(this.props.maxVal);
+        //Calling handleChange again to reset the variable "max_length"
+        handleChange();
     },
 
     render() {
@@ -51,4 +54,4 @@ var NewTweet = r.createClass({
 r.render(
     <NewTweet maxVal={140} />,
     document.getElementById("tweet-app")
-);
+); 

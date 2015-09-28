@@ -1,9 +1,11 @@
 # React Learning
 
 ## Installation of Projects
-Start by making sure you have Node.js installed and it's in your PATH. If you don't got node installed, then go to: [nodejs.org](https://nodejs.org/en/) and download node. 
+First you'll need to make sure you have [Node.js](https://nodejs.org/en/) and [Ruby](https://www.ruby-lang.org/en/documentation/installation/) installed.
 
-After that, install grunt-cli by opening a terminal (Command prompt) and type ```npm install grunt-cli --save-dev```, and then continue.
+When ruby is installed, open a terminal (Command prompt) and type ```gem install sass```
+
+After that, install grunt-cli globally by opening a terminal (Command prompt) and type ```npm install -g grunt-cli```, and then continue.
 
 
 To get all the necessary files to build the project and compile it:

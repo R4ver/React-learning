@@ -7,7 +7,7 @@ When ruby is installed, open a terminal (Command prompt) and type ```gem install
 
 After that, install grunt-cli globally by opening a terminal (Command prompt) and type ```npm install -g grunt-cli```, and then continue.
 
-> If you wanna use gulp in the "Tweet" example, use ```npm install --global gulp```
+> If you wanna use gulp in the "Tweet" example, use ```npm install --global gulp``` and then ```npm install```
 
 
 To get all the necessary files to build the project and compile it:

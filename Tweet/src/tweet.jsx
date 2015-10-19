@@ -17,8 +17,8 @@ var NewTweet = r.createClass({
         $("#tweet__counter").html(max_length - input_length);
     },
 
-    handleSubmit() {
-        var input = $(".tweet__text"); 
+    handleSubmit() { 
+        var input = $(".tweet__text");   
 
         if ( input.val().length === 0 ) {
             alert("Please enter a tweet");

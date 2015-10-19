@@ -2,9 +2,13 @@
   "name": "Tweet_Counter",
   "version": "0.0.1",
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-contrib-sass": "~0.9.0",
-    "grunt-contrib-watch": "~0.4.0",
-    "grunt-react": "~0.12.0"
+    "grunt": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-react": "*",
+    "gulp": "^3.9.0",
+    "gulp-react": "*",
+    "gulp-sass": "*",
+    "gulp-watch": "*"
   }
 }
